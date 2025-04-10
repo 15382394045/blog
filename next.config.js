@@ -11,6 +11,8 @@ const nextConfig = {
     unoptimized: true,  // 为了静态导出
   },
   basePath: '/blog',  // 设置基础路径为你的仓库名
+  assetPrefix: '/blog/',
+  trailingSlash: true,
 }
 
 module.exports = nextConfig 
